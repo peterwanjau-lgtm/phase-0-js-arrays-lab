@@ -1,4 +1,31 @@
-// Write your code here
+const products = ["Laptop", "Phone", "Headphones", "Monitor"]
+
+// Acessing individual products using their index
+
+let firstProduct = products[0]; // "laptop
+let secondProduct = products[1]; // "phone"
+let thirdProduct = products[2]; // "headphones"
+let fourthProduct = products[3]; // "monitor"
+
+function addProduct(productName) {
+  products.push(productName);
+}
+function updateProductName(position, newName) {
+  products[position] = newName;
+}
+function removeLastProduct() {
+  products.pop();
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
