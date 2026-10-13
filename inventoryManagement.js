@@ -7,6 +7,10 @@ let secondProduct = products[1]; // "phone"
 let thirdProduct = products[2]; // "headphones"
 let fourthProduct = products[3]; // "monitor"
 
+function logFirstProduct() {
+  console.log(products[0]);
+}
+
 function addProduct(productName) {
   products.push(productName);
 }
